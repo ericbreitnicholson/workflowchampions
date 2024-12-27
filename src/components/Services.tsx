@@ -30,23 +30,24 @@ const services = [
 
 export const Services = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-32 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4 text-primary">
+        <h2 className="text-5xl font-bold text-center mb-6 text-white animate-slide-up">
           How We Empower Your Business
         </h2>
-        <p className="text-xl text-gray-600 text-center mb-12">
+        <p className="text-xl text-gray-300 text-center mb-20 animate-slide-up" style={{ animationDelay: '0.2s' }}>
           Our expert services are designed to drive growth and streamline operations.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="text-center animate-slide-up"
+              style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <div className="text-primary mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <div className="text-white mb-6">{service.icon}</div>
+              <h3 className="text-2xl font-bold mb-4 text-white">{service.title}</h3>
+              <p className="text-gray-300">{service.description}</p>
             </div>
           ))}
         </div>

@@ -15,15 +15,15 @@ export const Metrics = () => {
   }, []);
 
   return (
-    <section className="py-16 bg-primary text-white">
+    <section className="py-32 bg-black">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {metrics.map((metric, index) => (
-            <div key={index} className="text-center">
-              <div className={`text-5xl font-bold mb-2 ${isVisible ? 'animate-counter' : 'opacity-0'}`}>
+            <div key={index} className="text-center animate-slide-up" style={{ animationDelay: `${index * 0.2}s` }}>
+              <div className={`text-6xl font-bold mb-4 text-white ${isVisible ? 'animate-counter' : 'opacity-0'}`}>
                 {metric.value}{metric.suffix}
               </div>
-              <div className="text-xl">{metric.label}</div>
+              <div className="text-xl text-gray-300">{metric.label}</div>
             </div>
           ))}
         </div>
