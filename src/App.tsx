@@ -18,6 +18,12 @@ const App = () => (
           <Route path="/about" element={<div className="pt-20">About Page Coming Soon</div>} />
           <Route path="/services" element={<div className="pt-20">Services Page Coming Soon</div>} />
           <Route path="/blog" element={<div className="pt-20">Blog Page Coming Soon</div>} />
+          <Route path="/contact" element={<div className="pt-20">Contact Page Coming Soon</div>} />
+          <Route path="/privacy-policy" element={<div className="pt-20">Privacy Policy Coming Soon</div>} />
+          <Route path="/terms-of-service" element={<div className="pt-20">Terms of Service Coming Soon</div>} />
+          <Route path="/cookie-notice" element={<div className="pt-20">Cookie Notice Coming Soon</div>} />
+          <Route path="/accessibility" element={<div className="pt-20">Accessibility Coming Soon</div>} />
+          <Route path="/advertising-notice" element={<div className="pt-20">Internet-Based Advertising Notice Coming Soon</div>} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
