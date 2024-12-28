@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
 const metrics = [
-  { label: "Years of Real Estate Expertise", value: 10, suffix: "+" },
-  { label: "Workflows Optimized", value: 1000, suffix: "+" },
-  { label: "Countries with Active Clients", value: 20, suffix: "+" },
+  { label: "Years of Process Documentation", value: 10, suffix: "+" },
+  { label: "Hours Saved", value: 100, suffix: "+" },
+  { label: "States with Active Clients", value: 3, suffix: "+" },
 ];
 
 export const Metrics = () => {

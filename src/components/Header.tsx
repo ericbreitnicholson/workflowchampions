@@ -26,8 +26,8 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="text-xl font-bold text-primary">
-            Workflow Champions
+          <Link to="/" className="text-primary">
+            <img src="/lovable-uploads/afb5c114-35ec-454c-8006-0db270ee01f2.png" alt="Workflow Champions" className="h-8" />
           </Link>
 
           {/* Navigation Links */}
