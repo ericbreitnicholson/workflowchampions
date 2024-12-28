@@ -42,7 +42,7 @@ export const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center text-center"
             >
               <div className="text-primary mb-4">{service.icon}</div>
               <h3 className="text-xl font-bold mb-2">{service.title}</h3>

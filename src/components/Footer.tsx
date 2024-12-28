@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Workflow Champions</h3>
             <p className="text-sm">
@@ -19,12 +19,11 @@ export const Footer = () => {
               <li><Link to="/about" className="hover:text-white transition-colors">About</Link></li>
               <li><Link to="/services" className="hover:text-white transition-colors">Services</Link></li>
               <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link to="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="text-white font-bold mb-4">Follow Us</h4>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 justify-center md:justify-start">
               <a href="#" className="hover:text-white transition-colors"><Facebook size={20} /></a>
               <a href="#" className="hover:text-white transition-colors"><X size={20} /></a>
               <a href="#" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
