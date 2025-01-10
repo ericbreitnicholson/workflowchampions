@@ -12,10 +12,10 @@ export const Hero = () => {
           backgroundRepeat: 'no-repeat'
         }}
       />
-      <div className="absolute inset-0 bg-black/40 z-10" /> {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-black/40 z-10" />
       <div className="container mx-auto px-4 text-center relative z-20">
         <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-          Empowering Real Estate Professionals to Thrive
+          Best Real Estate Marketing Agency
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
           Streamline your workflows, strengthen relationships, and accelerate growth with custom automation solutions.
