@@ -31,7 +31,7 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <img src="/lovable-uploads/85ee48fc-0470-4235-999d-da14ae8c44c2.png" alt="WC Logo" className="h-8 w-8" />
+            <img src="/lovable-uploads/0b542abe-a34d-4b85-b3c6-ba7454a3629a.png" alt="WC Logo" className="h-8 w-8" />
             <span className="text-xl font-bold text-primary">
               Workflow Champions
             </span>
@@ -66,7 +66,7 @@ export const Header = () => {
         style={{ zIndex: 1000 }}
       >
         <div className="flex justify-end p-4">
-          <button onClick={() => setIsMenuOpen(false)}>
+          <button onClick={() => setIsMenuOpen(false)} className="text-gray-600">
             <X size={24} />
           </button>
         </div>
